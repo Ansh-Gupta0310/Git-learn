@@ -32,6 +32,5 @@ public class caladd {
         } while (choice != '2');
 
         scan.close();
-    }
-    
+    }   
 }
