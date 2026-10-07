@@ -40,4 +40,11 @@ public class caladd {
         }
         return a / b;
     }
+
+    public int modulus(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot perform modulus by zero");
+        }
+        return a % b;
+    }
 }
